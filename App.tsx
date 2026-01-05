@@ -47,16 +47,27 @@ const App: React.FC = () => {
   return (
     <div className="min-h-screen bg-slate-50 text-slate-900 p-4 md:p-8 font-sans selection:bg-teal-200">
       
-      {/* Header */}
-      <header className="max-w-2xl mx-auto flex justify-center items-center mb-10">
-        <div className="flex items-center gap-5 bg-white px-8 py-4 rounded-3xl shadow-sm border border-slate-200">
-           <div className="w-12 h-12 bg-teal-500 rounded-2xl flex items-center justify-center shadow-lg shadow-teal-500/20 shrink-0 rotate-3">
-             <CalendarIcon className="w-6 h-6 text-white" />
+      {/* Stylish Header */}
+      <header className="max-w-fit mx-auto mb-12 relative group cursor-default pt-4">
+        {/* Animated Glow Effect */}
+        <div className="absolute -inset-1 bg-gradient-to-r from-teal-400 via-emerald-400 to-cyan-400 rounded-full blur opacity-25 group-hover:opacity-50 transition duration-1000 group-hover:duration-200"></div>
+        
+        {/* Main Badge Container */}
+        <div className="relative bg-white flex items-center gap-5 px-4 py-3 pr-8 rounded-full shadow-xl shadow-slate-200/60 ring-1 ring-slate-100/80">
+           
+           {/* Icon */}
+           <div className="w-14 h-14 rounded-full bg-gradient-to-br from-teal-400 to-emerald-500 flex items-center justify-center shadow-lg shadow-teal-500/20 text-white shrink-0 group-hover:scale-105 transition-transform duration-300">
+             <CalendarIcon className="w-7 h-7" />
            </div>
-           <div className="flex flex-col justify-center">
-              <span className="font-bold text-xl tracking-tight text-slate-900 leading-none">Sumon Hossain</span>
-              <div className="h-px w-full bg-slate-100 my-2"></div>
-              <span className="text-sm font-bold text-teal-700 uppercase tracking-widest font-mono">25 October 1998 • 5:30 AM</span>
+
+           {/* Text Info */}
+           <div className="flex flex-col">
+              <h1 className="text-2xl font-black text-slate-800 tracking-tighter leading-none mb-1">Sumon Hossain</h1>
+              <div className="flex items-center gap-2">
+                 <span className="text-[10px] font-extrabold text-teal-600 bg-teal-50 px-3 py-1 rounded-full border border-teal-100 tracking-[0.15em] font-mono shadow-sm">
+                    25 OCTOBER 1998
+                 </span>
+              </div>
            </div>
         </div>
       </header>
