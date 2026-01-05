@@ -49,11 +49,15 @@ const App: React.FC = () => {
       
       {/* Header */}
       <header className="max-w-2xl mx-auto flex justify-center items-center mb-10">
-        <div className="flex items-center gap-3 bg-white px-6 py-3 rounded-full shadow-sm border border-slate-100">
-           <div className="w-8 h-8 bg-teal-500 rounded-full flex items-center justify-center shadow-lg shadow-teal-500/20">
-             <CalendarIcon className="w-4 h-4 text-white" />
+        <div className="flex items-center gap-5 bg-white px-8 py-4 rounded-3xl shadow-sm border border-slate-200">
+           <div className="w-12 h-12 bg-teal-500 rounded-2xl flex items-center justify-center shadow-lg shadow-teal-500/20 shrink-0 rotate-3">
+             <CalendarIcon className="w-6 h-6 text-white" />
            </div>
-           <span className="font-bold text-lg tracking-tight text-slate-800">Sumon Hossain</span>
+           <div className="flex flex-col justify-center">
+              <span className="font-bold text-xl tracking-tight text-slate-900 leading-none">Sumon Hossain</span>
+              <div className="h-px w-full bg-slate-100 my-2"></div>
+              <span className="text-sm font-bold text-teal-700 uppercase tracking-widest font-mono">25 October 1998 • 5:30 AM</span>
+           </div>
         </div>
       </header>
 
