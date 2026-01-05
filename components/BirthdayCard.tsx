@@ -28,7 +28,7 @@ const themeStyles: Record<ThemeColor, {
     iconBg: 'bg-teal-50',
     iconColor: 'text-teal-600',
     label: 'text-teal-600',
-    progressFill: 'bg-teal-100/50',
+    progressFill: 'bg-teal-200/60',
     gradient: 'from-teal-400 via-emerald-400 to-cyan-400',
     highlightBadge: 'bg-teal-50 text-teal-700 border-teal-200'
   },
@@ -37,7 +37,7 @@ const themeStyles: Record<ThemeColor, {
     iconBg: 'bg-orange-50',
     iconColor: 'text-orange-600',
     label: 'text-orange-600',
-    progressFill: 'bg-orange-100/50',
+    progressFill: 'bg-orange-200/60',
     gradient: 'from-orange-400 via-amber-400 to-yellow-400',
     highlightBadge: 'bg-orange-50 text-orange-700 border-orange-200'
   },
@@ -46,7 +46,7 @@ const themeStyles: Record<ThemeColor, {
     iconBg: 'bg-purple-50',
     iconColor: 'text-purple-600',
     label: 'text-purple-600',
-    progressFill: 'bg-purple-100/50',
+    progressFill: 'bg-purple-200/60',
     gradient: 'from-purple-400 via-fuchsia-400 to-pink-400',
     highlightBadge: 'bg-purple-50 text-purple-700 border-purple-200'
   },
@@ -55,7 +55,7 @@ const themeStyles: Record<ThemeColor, {
     iconBg: 'bg-blue-50',
     iconColor: 'text-blue-600',
     label: 'text-blue-600',
-    progressFill: 'bg-blue-100/50',
+    progressFill: 'bg-blue-200/60',
     gradient: 'from-blue-400 via-indigo-400 to-violet-400',
     highlightBadge: 'bg-blue-50 text-blue-700 border-blue-200'
   },
@@ -64,7 +64,7 @@ const themeStyles: Record<ThemeColor, {
     iconBg: 'bg-rose-50',
     iconColor: 'text-rose-600',
     label: 'text-rose-600',
-    progressFill: 'bg-rose-100/50',
+    progressFill: 'bg-rose-200/60',
     gradient: 'from-rose-400 via-pink-400 to-red-400',
     highlightBadge: 'bg-rose-50 text-rose-700 border-rose-200'
   }
